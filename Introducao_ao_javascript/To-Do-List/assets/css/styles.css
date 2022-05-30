@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@100;200;300&display=swap');
+
+* {
+    font-family: 'Arima Madurai', cursive;
+}
+body {
+    display: flex;
+    justify-content: center;
+}
+#container-to-do {
+    text-align: center;
+}
+#title-to-do {
+    color: #58D68D;
+    text-decoration: underline;
+}
+#new-task {
+    margin-right: 10px;
+}
+#tasks-list {
+    padding: 0;
+    color: #58D68D;
+    font-weight: bold;
+}
+#button-add {
+    border: 1px solid #58D68D;
+    border-radius: 6px;
+    padding: 8px;
+    background-color: #58D68D;
+    color: #fff;
+    font-size: 14px;
+}
+:checked + label {
+    text-decoration: line-through;
+    color: #58D68D;
+}
+input[type=text] {
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #58D68D;
+    transition: 0.5s;
+    outline: none;
+    border-radius: 6px;
+}
+input[type=text]:focus {
+    border: 1px solid #58D68D;
+}
+span {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+input[type=checkbox] {
+    width: 25px;
+    height: 25px;
+    -webkit-appearance: none;
+    box-sizing: border-box;
+    border: 1px solid #58D68D;
+    border-radius: 6px;
+}
+input[type=checkbox]:checked {
+    background-color: #58D68D;
+}
+input[type=checkbox]:checked:after {
+    width: 4px;
+    height: 12px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+    content: "";
+    display: inline-block;
+}
+input[type=checkbox]:after {
+    margin-left: 9px;
+    margin-top: 2px;
+}
