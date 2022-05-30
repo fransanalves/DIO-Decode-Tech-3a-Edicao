@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@100;200;300&display=swap');
+
+body {
+    font-family: 'Arima Madurai', cursive;
+    color: gray;
+    background-color: #c2c2ff;
+    display: flex;
+    justify-content: center;
+}
+#container-count {
+    width: 250px;
+    height: 200px;
+    border: 1px solid #8000eb;
+    text-align: center;
+    background-color: #ffff;
+}
+#title-count, #count-number {
+    color: #8000eb;
+}
+#count-number {
+    font-weight: bold;
+}
+#decrement-count, #increment-count {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    border: 1px solid #8000eb;
+    color: #8000eb;
+    font-size: 18px;
+    background-color: #ffff;
+}
