@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@100;200;300&display=swap');
+
+* {
+    font-family: 'Arima Madurai', cursive;
+}
+body{
+    margin: 0;
+    background-color: #e5e8e8;
+	color: #5D6D7E;
+}
+body.dark-mode {
+	background-color: #2C3E50;
+	color: #e5e8e8;
+}
+main {
+    height: 96vh;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+footer {
+	width: 100%;
+	height: 4vh;
+    background-color: #5D6D7E;
+    color: #e5e8e8;
+    text-align: center;
+}
+footer.dark-mode {
+	background-color: #e5e8e8;
+	color: #2C3E50;
+	font-weight: bold;
+}
+button {
+	border-radius: 40px;
+	font-size: 18px;
+	height: 60px;
+	width: 200px;
+	border: none;
+	background-color: #5D6D7E;
+	color: #e5e8e8;
+	transition: all 0.5s linear;
+}
+button:hover {
+	background-color: #2C3E50;
+}
+
+button.dark-mode {
+	background-color: #e5e8e8;
+	color: #4e545c;
+	font-weight: bold;
+}
+
+button.dark-mode:hover {
+	background-color: #5D6D7E;
+	color: #e5e8e8;
+}
