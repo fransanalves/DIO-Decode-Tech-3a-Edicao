@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@100;200;300&family=Ubuntu:wght@300;400;500&display=swap');
+
+* {
+    font-family: 'Arima Madurai', cursive;
+}
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #e5e8e8;
+	color: #5D6D7E;
+}
+main {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px 10px 15px 15px;
+    background-color: #D35400;
+}
+#calculator-display {
+    width: 196px;
+    height: 40px;
+    border: 1px solid #17202A;
+    border-radius: 8px;
+    display: flex;
+    justify-content: end;
+    font-size: 24px;
+    padding: 8px;
+    font-weight: bold;
+    background-color: #17202A;
+    color: #fff;
+}
+section {
+    width: 220px;
+    height: 280px;
+    padding-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+button {
+    width: 48px;
+    height: 48px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    background-color: #17202A;
+    border: 1px solid #17202A;
+    border-radius: 10px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button:hover {
+    background-color: #E67E22;
+    color: #fff;
+    font-weight: bold;
+    border: 1px solid #fff;
+}
